@@ -20,7 +20,7 @@ jobs:
           config.model: "qwen-coder-turbo-latest"
           config.fallback_models: '["qwen-coder-turbo-latest"]'
           # Add Aliyun API key
-          OPENAI_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          OPENAI.KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           OPENAI.API_BASE: "https://dashscope.aliyuncs.com/compatible-mode/v1"
           github_action_config.auto_review: "true"
           github_action_config.auto_describe: "true"
